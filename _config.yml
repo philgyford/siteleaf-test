@@ -2,6 +2,9 @@
 title: Phil's Test Site
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: true
@@ -15,7 +18,7 @@ defaults:
   values:
     layout: post
     permalink: "/projects/:title/"
-    client_name: ""
+    client_name: ''
 - scope:
     path: ''
     type: pages
